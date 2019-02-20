@@ -102,34 +102,35 @@
           }
         }
       }
+
     },
-    "pouchdb-wrapper": {
-      "root": "projects/pouchdb-wrapper",
-      "sourceRoot": "projects/pouchdb-wrapper/src",
+    "pdb": {
+      "root": "projects/pdb",
+      "sourceRoot": "projects/pdb/src",
       "projectType": "library",
       "prefix": "lib",
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-ng-packagr:build",
           "options": {
-            "tsConfig": "projects/pouchdb-wrapper/tsconfig.lib.json",
-            "project": "projects/pouchdb-wrapper/ng-package.json"
+            "tsConfig": "projects/pdb/tsconfig.lib.json",
+            "project": "projects/pdb/ng-package.json"
           }
         },
         "test": {
           "builder": "@angular-devkit/build-angular:karma",
           "options": {
-            "main": "projects/pouchdb-wrapper/src/test.ts",
-            "tsConfig": "projects/pouchdb-wrapper/tsconfig.spec.json",
-            "karmaConfig": "projects/pouchdb-wrapper/karma.conf.js"
+            "main": "projects/pdb/src/test.ts",
+            "tsConfig": "projects/pdb/tsconfig.spec.json",
+            "karmaConfig": "projects/pdb/karma.conf.js"
           }
         },
         "lint": {
           "builder": "@angular-devkit/build-angular:tslint",
           "options": {
             "tsConfig": [
-              "projects/pouchdb-wrapper/tsconfig.lib.json",
-              "projects/pouchdb-wrapper/tsconfig.spec.json"
+              "projects/pdb/tsconfig.lib.json",
+              "projects/pdb/tsconfig.spec.json"
             ],
             "exclude": [
               "**/node_modules/**"

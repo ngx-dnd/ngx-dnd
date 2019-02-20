@@ -19,11 +19,11 @@
       "dom"
     ],
     "paths": {
-      "pouchdb-wrapper": [
-        "dist/pouchdb-wrapper"
+      "pdb": [
+        "dist/pdb"
       ],
-      "pouchdb-wrapper/*": [
-        "dist/pouchdb-wrapper/*"
+      "pdb/*": [
+        "dist/pdb/*"
       ]
     }
   }
