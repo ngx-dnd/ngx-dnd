@@ -1,0 +1,3 @@
+[submodule "projects/pdb"]
+	path = projects/pdb
+	url = https://github.com/ngx-dnd/pdb.git
